@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    background-image: url(../assets/images/fondo-patron-geometrico-blanco-gris/v748-toon-106.jpg);
+    font-family: Hanken Grotesk;
+}
+
+.yourResult{
+    margin-top: 25px;
+}
+
+/*main{
+    
+}*/
+
+.resultado{
+    
+    width: 375px;
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+    text-align: center;
+    color:hsl(221, 100%, 96%);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding-top: 5px;
+    box-shadow: 0 0px 10px 0px hsl(252, 100%, 67%, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.r-circulo{
+    background: rgb(120,87,255);
+    background: linear-gradient(0deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#r{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+    padding-top: 30px;
+    
+    
+    
+}
+#p{
+    color:hsl(241, 100%, 89%);
+    margin: 0;
+    font-size: 12px;
+}
+
+
+
+#cal-d{
+    width: 250px;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+.desglose{
+    
+    margin-top: -50px;
+    padding-top: 30px;
+    
+    width: 378px;
+    background-color: hsl(221, 100%, 96%);
+    text-align: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 0 0px 10px 10px hsl(252, 100%, 67%, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sum{
+    padding-top: 20px;
+    padding-right: 228px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    row-gap: 15px;
+}
+img {
+    display:inline;
+    vertical-align: -5px;
+    padding: 0;
+    
+}
+.action{
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+    padding-right: 80px;
+    
+}
+
+.rr, .rp{
+    display: inline-block;    
+    text-align: right;
+    width:37px;
+}
+.rr p{
+    color:hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+.reac{
+    background-color: hsl(0, 100%, 67%,0.1);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-left:auto ;
+    margin-right:auto ;
+    
+}
+
+.reac p{
+    color:hsl(0, 100%, 67%);
+    
+}
+#mem{background-color: hsl(39, 100%, 56%,0.1);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+
+#mem p{
+    color:hsl(39, 100%, 29%);
+}
+#ver{background-color: hsl(166, 100%, 37%,0.1);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-left:auto ;
+    margin-right:auto ;
+    
+}
+#ver p{color: hsl(166, 100%, 37%);
+    
+}
+
+#vis{background-color: hsl(234, 85%, 45%,0.1);
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-left:auto ;
+    margin-right:auto ;
+    
+}
+#vis p{color: hsl(234, 85%, 45%);
+    
+}
+
+.contButton{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    
+}
+
+.contButton p{
+    height: 40px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: 700;
+    padding-top: 19px;
+    
+    
+}
+.contButton p:hover{
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+}
+
+footer{
+    position:relative;
+    text-align: center;
+    margin-left:auto ;
+    margin-right:auto ;
+    
+}
+@media screen and (min-width:801px) {
+    .yourResult{
+        width: 800px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .resultado{
+        margin-left: 77px;
+        width: 300px;
+        border-top-right-radius: 10%;
+        border-top-left-radius: 10%;
+        position: absolute;
+        display: flexbox;
+        float: left;
+        height: 450px;
+        z-index: 1;
+    }
+
+    #yR{
+        padding: 30px 30px;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    #cal{
+        padding: 40px 5px 15px 5px;
+        margin: 0;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    #cal-d{
+        
+        padding: 0px 10px 0px 25px;
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+    .desglose{
+        margin: 0;
+        padding: 0;
+        height: 450px;
+        position: relative;
+        display: flexbox;
+        float: right;
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+        border-bottom-left-radius: 0;
+        margin-right: 69px;
+        padding-left: -60px;
+        
+    }
+
+    .sum{
+        padding: 30px 0 20px 39px;
+        text-align: justify;
+        margin: 0;
+    }
+
+    .contButton{
+        padding-top: 15px;
+    }
+
+    footer{
+        position: relative;
+        margin-top: -30px;
+        padding-top: 0;
+        text-align: center;
+    }
+}
